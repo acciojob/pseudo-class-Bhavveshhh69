@@ -5,14 +5,14 @@
 
 /* Pseudo-element BEFORE the container content */
 #container::before {
-  content: "Before Content - ";
+  content: "Before Content";
   color: #f00;
   font-size: 20px;
 }
 
 /* Pseudo-element AFTER the container content */
 #container::after {
-  content: " - After Content";
+  content: "After Content";
   color: #f00;
   font-size: 20px;
 }
